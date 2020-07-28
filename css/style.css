@@ -153,6 +153,7 @@ figcaption {
 		box-shadow: 0 1px 4px rgba(0,0,0,.4);
 		width: 100%;
 		top: 0;
+		z-index: 1000; /* Normally the default Z-index is 0 so giving main-header a z-index of 1 gives it the higest stacking order priority */
 
 	}
 
